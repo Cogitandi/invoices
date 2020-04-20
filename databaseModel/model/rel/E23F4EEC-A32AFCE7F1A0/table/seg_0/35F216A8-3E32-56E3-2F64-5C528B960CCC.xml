@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35F216A8-3E32-56E3-2F64-5C528B960CCC" name="position">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:53:53 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C8B02563-8865-0164-2E56-55A34FA6EA10">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:54:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="9E090DA2-3B2C-42F6-3B83-3D2FE108D715">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:54:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="invoice_id" id="43033D1D-815D-57E3-A666-82EA670078D5">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:06:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B04DA1EE-569A-D718-1DEA-A665329A3471" referredColumn="E9C244D1-0F80-FAED-C55E-7B69D38B22A0"/>
+</associations>
+</Column>
+<Column name="price_id" id="CC58B53E-16CE-4FAC-5F16-7C3108FCAD0C">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:36:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="448DC64F-193B-0161-8490-FE527DA70925" referredColumn="B05B1C15-4BD3-6BA8-AA81-EFEFA6FB40DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC847D68-2090-625F-A294-33A249338BF2" name="position_PK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:54:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8B02563-8865-0164-2E56-55A34FA6EA10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E269F720-AF11-CADD-296F-7138E1024CB4" name="position_invoice_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:06:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43033D1D-815D-57E3-A666-82EA670078D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88F43215-D129-3095-0E38-8F3DA752F6C6" name="position_price_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:36:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC58B53E-16CE-4FAC-5F16-7C3108FCAD0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

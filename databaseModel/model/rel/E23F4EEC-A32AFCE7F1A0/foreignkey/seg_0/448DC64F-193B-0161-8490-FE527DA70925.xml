@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="448DC64F-193B-0161-8490-FE527DA70925" containerWithKeyObject="35F216A8-3E32-56E3-2F64-5C528B960CCC" localFKIndex="88F43215-D129-3095-0E38-8F3DA752F6C6" name="position_price_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:36:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>price</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A3A792A5-75B0-C0ED-0EE4-00E73AB15514</referredTableID>
+<keyObject>0A1757EE-C155-42EA-C73E-7427863C32C9</keyObject>
+<referredKeyID>0A1757EE-C155-42EA-C73E-7427863C32C9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF5C49AD-E7D7-A62C-8C33-C3FD5ADEEF54" containerWithKeyObject="9D370010-9EC0-62EF-C11A-62FE247C80FA" localFKIndex="35CD668D-3000-65E2-402F-80743E1CE48F" name="district_voivodeship_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:41:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>voivodeship</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E227F3E2-43C2-80D5-880F-FF15AF026B48</referredTableID>
+<keyObject>0E4ADCC4-CB6D-38C7-3219-EF1C95B8CCD3</keyObject>
+<referredKeyID>0E4ADCC4-CB6D-38C7-3219-EF1C95B8CCD3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

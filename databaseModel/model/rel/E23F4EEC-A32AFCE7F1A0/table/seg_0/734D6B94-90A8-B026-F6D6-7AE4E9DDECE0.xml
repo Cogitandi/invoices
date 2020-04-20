@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="734D6B94-90A8-B026-F6D6-7AE4E9DDECE0" name="town">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:14:24 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F8D7FEAC-8A21-195D-48C1-63A73922CD27">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:15:01 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="BB6B75C6-2382-F55D-9AFF-7585C5D2C3AD">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:15:01 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postCode_id" id="80CC6BEF-D758-1C43-516F-199DF82A3EF4">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:19:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05534EB4-9A72-774B-CE8F-A1F3675B024C" referredColumn="2C0B3671-FDEE-D8A8-5203-C2342190B4B6"/>
+</associations>
+</Column>
+<Column name="district_id" id="936F8926-665B-CB02-329C-37D6794B9E81">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:40:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21B9570E-4A22-F0FC-ADBA-7AF41D4E1254" referredColumn="59B4B28B-D9BA-472A-54F8-B3E31BF975CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAC1B22A-AF55-0781-9C50-2E8CEB227FCC" name="town_PK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:15:02 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8D7FEAC-8A21-195D-48C1-63A73922CD27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33505C15-0093-6679-CF04-737FBCED9504" name="town_postCode_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:19:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80CC6BEF-D758-1C43-516F-199DF82A3EF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE35B441-7054-9DC6-B7CF-C8300A856090" name="town_district_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:40:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="936F8926-665B-CB02-329C-37D6794B9E81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2136AED-2C92-91ED-E33E-C2A3AA1EC43B" name="postCode">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:16:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2C0B3671-FDEE-D8A8-5203-C2342190B4B6">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:17:42 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="code" id="1AFB6936-5118-73A4-C6B4-1C66D40F0BCF">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:17:42 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D4C3D2D-FC00-4084-9F52-022DD0C20A39" name="postCode_PK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:17:42 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C0B3671-FDEE-D8A8-5203-C2342190B4B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

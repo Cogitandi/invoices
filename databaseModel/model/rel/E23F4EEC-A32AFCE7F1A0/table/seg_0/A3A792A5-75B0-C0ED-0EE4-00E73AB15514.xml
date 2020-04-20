@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3A792A5-75B0-C0ED-0EE4-00E73AB15514" name="price">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:51:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B05B1C15-4BD3-6BA8-AA81-EFEFA6FB40DA">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:51:59 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="priceList_id" id="B6EF83DC-DA7C-535D-1986-E3F8732E38CC">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:52:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C606B3FB-4283-E8FD-E4B6-73999DA69C27" referredColumn="763C85E3-FE7C-C536-4793-106ABF1CB186"/>
+</associations>
+</Column>
+<Column name="product_id" id="E1D2BC29-02FD-DE73-81AA-65BE033FE2A1">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:52:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85A3F3D9-A903-B505-98A1-0BD395E61BAC" referredColumn="D93CE1F5-2965-D248-D180-C6975356C117"/>
+</associations>
+</Column>
+<Column name="vat" id="96FC5A21-ECAD-90DB-DBE4-19DE47D6B334">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:59:52 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nettoPrice" id="4B18B99A-B0DA-C6D2-FABA-D1F0A898235E">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:27:01 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A1757EE-C155-42EA-C73E-7427863C32C9" name="prices_PK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:51:59 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B05B1C15-4BD3-6BA8-AA81-EFEFA6FB40DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5EDC4BB-0A2C-01B0-8D0A-05AA4A9F4549" name="price_priceList_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:52:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6EF83DC-DA7C-535D-1986-E3F8732E38CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBAE7838-B167-7125-B1A2-0A0FAAD6E237" name="price_product_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:52:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1D2BC29-02FD-DE73-81AA-65BE033FE2A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

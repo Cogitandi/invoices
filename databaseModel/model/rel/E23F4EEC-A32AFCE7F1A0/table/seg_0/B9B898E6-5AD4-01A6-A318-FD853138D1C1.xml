@@ -1,0 +1,206 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9B898E6-5AD4-01A6-A318-FD853138D1C1" name="contractor">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:02:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9491AA34-6F42-B44A-6103-FA0079CC5CE1">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:26:44 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="firstName" id="F3CF2332-08F5-295A-76DF-D4990FB64B78">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:26:44 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastName" id="38844648-FED1-3E3C-5712-E68D2FACC471">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:26:44 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="companyName" id="DC4D96D7-C343-07B7-5C06-2FA8927FF29C">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:26:44 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bankAccountNumber" id="FF7ABE44-BD42-872B-B19E-8FC0C881F63F">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:30:57 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>26</dataTypePrecision>
+<ownDataTypeParameters>,26,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nip" id="74808A0E-F0E2-7C40-84E2-C321A4A93565">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:32:32 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="699E3EFD-7DE9-7658-7FAD-8807A8E4FC9A">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:34:06 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regon" id="579B98EE-6D14-D896-8BF8-EA98B46CF33D">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:40:04 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="CF4DD065-BD2B-0206-C870-478BC7BF57B5">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:40:04 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="6B3F0B65-6144-793E-6FD2-3B7B147A8B55">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:40:04 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="disable" id="CB9C8C10-D9C7-D83D-7EC6-F3C54E28E1AC">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:30:40 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bank_id" id="5DFDAF62-C23A-C194-0499-9065FA031CB0">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:29:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AC84B04-6B6A-41BA-AF18-820E05A1DF49" referredColumn="E854FAA3-E183-A744-1CFA-4020230CCA72"/>
+</associations>
+</Column>
+<Column name="town_id" id="7541A435-54B7-1C07-0168-1A0CD63F0211">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:29:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C627A1F-BCF1-EFE8-95C6-D7B84E69FD81" referredColumn="F8D7FEAC-8A21-195D-48C1-63A73922CD27"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8667151-8DEB-6F64-AE6B-BC86AF464A21" name="contractor_PK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:26:44 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9491AA34-6F42-B44A-6103-FA0079CC5CE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA71ECD4-43FE-0251-0D97-C4F9F1FDA7E0" name="contractor_town_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:29:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7541A435-54B7-1C07-0168-1A0CD63F0211"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F38DD679-C686-BDD1-A805-D7C0B415FFAF" name="contractor_bank_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:29:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DFDAF62-C23A-C194-0499-9065FA031CB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

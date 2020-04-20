@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D370010-9EC0-62EF-C11A-62FE247C80FA" name="district">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:18:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="59B4B28B-D9BA-472A-54F8-B3E31BF975CD">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:18:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="8669A2A3-6BD2-29F5-E67F-CD91E2FD9E39">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:18:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="voivodeship_id" id="B0BCBC54-7C10-6126-9CFA-4DF627578160">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:41:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF5C49AD-E7D7-A62C-8C33-C3FD5ADEEF54" referredColumn="9E5DE371-C497-C5B2-11CB-2C9593DE80C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="779C340B-E1AE-1FB0-25C9-B301E79CDD09" name="district_PK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:18:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59B4B28B-D9BA-472A-54F8-B3E31BF975CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35CD668D-3000-65E2-402F-80743E1CE48F" name="district_voivodeship_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:41:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0BCBC54-7C10-6126-9CFA-4DF627578160"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6BA423C-0177-323B-BD2D-8355FEEFAB61" name="priceList">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:50:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="763C85E3-FE7C-C536-4793-106ABF1CB186">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:51:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="startDate" id="50727465-9A9A-4FC0-27C9-D6CA05858214">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:51:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endDate" id="AA20D8E1-6B14-2E72-6373-8495B6D5B92A">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:51:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80D927ED-B184-C4B1-AA24-EE5B7910FB54" name="priceList_PK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:51:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="763C85E3-FE7C-C536-4793-106ABF1CB186"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

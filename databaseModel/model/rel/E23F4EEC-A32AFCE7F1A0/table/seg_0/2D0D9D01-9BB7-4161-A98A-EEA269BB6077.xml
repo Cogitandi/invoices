@@ -1,0 +1,206 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D0D9D01-9BB7-4161-A98A-EEA269BB6077" name="invoice">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:56:40 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E9C244D1-0F80-FAED-C55E-7B69D38B22A0">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:59:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number" id="4A811630-5A41-3813-F27D-71D1B08C37C7">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:59:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creationDate" id="9D46092A-5B21-5D77-1F0F-1357FAC1EA28">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:59:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saleDate" id="7A65086C-6713-EB29-5B73-C98E3E047DEA">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:59:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="paymentDeadline" id="161EC46F-D343-6033-D1DD-73014C353EDA">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:02:53 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="paymentType_id" id="612714AB-D571-4944-FB43-695D76CBAA18">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:09:20 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5943ED14-CD87-3CF8-9F5D-0F927091FB59" referredColumn="57092D6C-B92C-CE1A-9CF7-7DAEBF33A0E6"/>
+</associations>
+</Column>
+<Column name="priceList_id" id="6229B0DA-80B9-9461-6D80-C48022DB8E8F">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:07:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="474A91FB-30DA-6947-298E-B96004DFF366" referredColumn="763C85E3-FE7C-C536-4793-106ABF1CB186"/>
+</associations>
+</Column>
+<Column name="seller_id" id="F5444FA8-6675-BF1E-D8C7-76D42E532000">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:14:29 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DC4284A-92D5-CDD5-2EB8-D70C0C31E6A3" referredColumn="9491AA34-6F42-B44A-6103-FA0079CC5CE1"/>
+</associations>
+</Column>
+<Column name="buyer_id" id="D0170E7C-D6EB-527C-4DB4-91829322AD6C">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:14:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FBBA6B9-4DD9-F486-F2EA-EFFAFC593D73" referredColumn="9491AA34-6F42-B44A-6103-FA0079CC5CE1"/>
+</associations>
+</Column>
+<Column name="priceCurrency_id" id="E3083011-0E6A-CC68-9864-8B22C1DEA2DF">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:35:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31E55E81-D453-BF0D-B18B-11D42D27B92C" referredColumn="03B1A2B1-73B7-5EC9-C666-812625F72359"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09539607-73D1-DAA9-459A-9FB8E6B5D6C7" name="invoke_PK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 12:59:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9C244D1-0F80-FAED-C55E-7B69D38B22A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8841451-F8D6-C179-D661-1B93F9D30FAE" name="invoice_priceList_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:07:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6229B0DA-80B9-9461-6D80-C48022DB8E8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B15A9B8-0691-4D45-FED2-FC374E965DAB" name="invoice_paymentType_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:09:20 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="612714AB-D571-4944-FB43-695D76CBAA18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5B71AE2-A766-21CA-C303-38DF4CE74819" name="invoice_contractor_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:14:29 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5444FA8-6675-BF1E-D8C7-76D42E532000"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A8EEB8F-405B-2B99-DF63-0296A8C8E22C" name="invoice_contractor_FKv2">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:14:39 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0170E7C-D6EB-527C-4DB4-91829322AD6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00D63DE2-9FAB-E01A-9356-DAAF79B7631A" name="invoice_priceCurrency_FK">
+<createdBy>TiMan</createdBy>
+<createdTime>2020-04-20 13:35:17 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3083011-0E6A-CC68-9864-8B22C1DEA2DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
